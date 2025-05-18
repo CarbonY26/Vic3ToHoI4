@@ -231,6 +231,7 @@ african = {
 		}
 	}
 	monarch_ideas = {
+		GFX_idea_RAJ_kingmaker
 	}
 
 	graphical_culture = african_gfx
@@ -319,7 +320,9 @@ arab = {
 			GFX_portrait_arabia_generic_operative_female_6
 		}
 	}
-
+	monarch_ideas = {
+		GFX_idea_RAJ_kingmaker
+	}
 	graphical_culture = middle_eastern_gfx
 	graphical_culture_2d = middle_eastern_2d
 }
@@ -398,7 +401,9 @@ asian = {
 			}
 		}
 	}
-
+	monarch_ideas = {
+		GFX_idea_RAJ_kingmaker
+	}
 	graphical_culture = asian_gfx
 	graphical_culture_2d = asian_2d
 }
@@ -567,7 +572,9 @@ caucasian = {
 			GFX_portrait_europe_generic_operative_female_26
 		}
 	}
-
+	monarch_ideas = {
+		GFX_idea_RAJ_kingmaker
+	}
 	graphical_culture = western_european_gfx 
 	graphical_culture_2d = western_european_2d
 }
@@ -611,7 +618,9 @@ indian = {
 			GFX_portrait_generic_asia_male_08
 		}
 	}
-
+	monarch_ideas = {
+		GFX_focus_RAJ_peacock_throne_for_the_modern_age
+	}
 	graphical_culture = asian_gfx
 	graphical_culture_2d = asian_2d
 }
@@ -733,7 +742,9 @@ south_american = { # Brazilian and such, european heritage
 			GFX_portrait_south_america_generic_operative_female_6
 		}
 	}
-
+	monarch_ideas = {
+		GFX_idea_CHL_ancestral_mapuche_resistance
+	}
 	graphical_culture = southamerican_gfx
 	graphical_culture_2d = southamerican_2d
 }
@@ -889,7 +900,9 @@ west_horn_of_african = {
 			}
 		}
 	}
-
+  	monarch_ideas = {
+		GFX_focus_ETH_the_king_of_kings
+   	}
 	graphical_culture = african_gfx
 	graphical_culture_2d = african_2d
 }
@@ -1058,7 +1071,9 @@ english = {
 			GFX_portrait_generic_europe_male_16
 		}
  	}
-
+    monarch_ideas = {
+		GFX_idea_stiff_upper_lip # No idea why it's called this internally
+    }
 	graphical_culture = western_european_gfx
 	graphical_culture_2d = western_european_2d
 }
@@ -1122,7 +1137,9 @@ french = {
 			GFX_portrait_generic_europe_male_16
 		}
 	}
-	
+	monarch_ideas = {
+		GFX_focus_focus_fra_orleans_restoration # The most neutral I guess
+  	}
 	graphical_culture = western_european_gfx
 	graphical_culture_2d = western_european_2d
 }
@@ -1186,7 +1203,9 @@ german = {
 			GFX_portrait_generic_europe_male_16
 		}
 	}
-
+    monarch_ideas = {
+		GFX_idea_AUS_habsburg_monarchy_restored
+    }
 	graphical_culture = western_european_gfx
 	graphical_culture_2d = western_european_2d
 }
@@ -1249,7 +1268,9 @@ italian = {
 			GFX_portrait_generic_europe_male_16
 		}
 	}
-	
+	monarch_ideas = {
+		GFX_idea_ITA_papal_state_ns # Revise 
+  	}
 	graphical_culture = western_european_gfx
 	graphical_culture_2d = western_european_2d
 }
@@ -1275,7 +1296,9 @@ japanese = {
 		GFX_Portrait_Japan_Generic_navy_2
 		GFX_Portrait_Japan_Generic_navy_3
 	}
-
+    monarch_ideas = {
+		GFX_idea_state_shintoism
+    }
 	graphical_culture = asian_gfx
 	graphical_culture_2d = asian_2d
 }
@@ -1286,31 +1309,31 @@ manchu = {
     army_portraits = {
         GFX_portrait_man_zhang_haipeng
         GFX_portrait_man_aisin_gioro_xiqia
-		GFX_portrait_chi_zhang_xueliang
-		GFX_Portrait_Asia_Generic_land_2
+	GFX_portrait_chi_zhang_xueliang
+	GFX_Portrait_Asia_Generic_land_2
     }
 
     leader_portraits = {
         communism = {
-			leader = {
-				GFX_Portrait_Asia_Generic_land_2 # Zhang Zuolin
-			}
+		leader = {
+			GFX_Portrait_Asia_Generic_land_2 # Zhang Zuolin
+		}
         }
         democratic = {
-			leader = {
-				GFX_portrait_chi_zhang_xueliang
-				GFX_Portrait_Asia_Generic_land_2 # Zhang Zuolin
-			}
+		leader = {
+			GFX_portrait_chi_zhang_xueliang
+			GFX_Portrait_Asia_Generic_land_2 # Zhang Zuolin
+		}
         }
         fascism = {
-			leader = {
-            	GFX_portrait_man_zhang_jinghui
-			}
+		leader = {
+            		GFX_portrait_man_zhang_jinghui
+		}
         }
         neutrality = {
-			leader = {
+		leader = {
          		GFX_portrait_man_henry_pu_yi_emperor
-			}
+		}
         }
     }
     monarch_ideas = {
@@ -1342,7 +1365,9 @@ russian = {
 		GFX_Portrait_Soviet_Generic_navy_2
 		GFX_Portrait_Soviet_Generic_navy_3
 	}
-
+	monarch_ideas = {
+		GFX_idea_SOV_the_true_tsars
+  	}
 	graphical_culture = eastern_european_gfx
 	graphical_culture_2d = eastern_european_2d
 }
